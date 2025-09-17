@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #5d7baf;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  color: #222;
+}
+
+header {
+  background: #354f7c;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #2e4370;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: yellow;
+}
+
+
+form {
+  background: #a7b9d9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  text-align: right;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+#message {
+  font-size: 18px;
+  color: green;
+  margin-top: 15px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 70%;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background: #354f7c;
+  color: white;
+}
+
+section img {
+  border-radius: 10px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+section img:hover {
+  transform: scale(1.1);
+}
+
+section:nth-of-type(3) {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  justify-items: center;
+}
+
+video, audio {
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+footer {
+  background: #2e4370;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

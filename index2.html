@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Page</title>
+  <link rel="stylesheet" href="style (3).css">
+</head>
+<body>
+  <header>
+    <h1>Book your room now</h1>
+    <p>Welcome to our hotel – enjoy comfort and luxury.</p>
+  </header>
+  <nav>
+    <a href="index.html">Main</a>
+    <a href="about.html">about us</a>
+    <a href="booking.html" class="active">The reservation</a>
+  </nav>
+  <main>
+    <section>
+      <h2>Reservation Form</h2>
+      <form id="bookingForm">
+        <label>Full name:</label>
+        <input type="text" name="name" required>
+        <label>Phone number:</label>
+        <input type="tel" name="phone" required>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <label>Date of arrival:</label>
+        <input type="date" name="checkin" required>
+        <label>Departure date:</label>
+        <input type="date" name="checkout" required>
+        <label>Number of guests:</label>
+        <input type="number" name="guests" min="1" required>
+        <label>Room type:</label>
+        <select name="room">
+          <option>Regular room</option>
+          <option>Deluxe Room</option>
+          <option>suite</option>
+        </select>
+        <button type="submit">Book now</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Room rates table</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th>Room type</th>
+          <th>The price per night</th>
+          <th>Capacity</th>
+        </tr>
+        <tr>
+          <td>Regular room</td>
+          <td>$50</td>
+          <td>2 people</td>
+        </tr>
+        <tr>
+          <td>Deluxe Room</td>
+          <td>$80</td>
+          <td>3 people</td>
+        </tr>
+        <tr>
+          <td>suite</td>
+          <td>$120</td>
+          <td>4 people</td>
+        </tr>
+      </table>
+    </section>
